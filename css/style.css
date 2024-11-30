@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0 200px;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+
+nav ul li {
+    margin-right: 15px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#actividades a {
+    display: block;
+}
